@@ -1,0 +1,932 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("KAI PROJECT", "DarkTheme")
+
+-- SILENT AIM
+
+local STab = Window:NewTab("SILENT AIM")
+local Section = STab:NewSection("Silent Aim")
+
+Section:NewButton("Silent Aim (white circle)", "Silent Aim", function()
+    getgenv().Silent = {
+    Settings = {
+        Enabled = true,
+        AimPart = "UpperTorso",
+        Prediction = 0.1433,
+        WallCheck = true,
+        Visualize = true,
+        AutoPrediction = true,
+    },
+    FOV = {
+        Enabled = true,
+        Size = 30,
+        Filled = false,
+        Thickness = 0.66,
+        Transparency = 0.9,
+        Color = Color3.fromRGB(255,255,255),
+    },
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberPlaysYT/Aura-x-update/main/Aura%20x%20updated", true))()
+end)
+
+Section:NewButton("Vortex Silent Aim", "Silent Aim", function()
+    getgenv().Settings = {
+	["Silent"] = {
+		["Enabled"] = true,
+		["AimPart"] = "HumanoidRootPart",
+		["WallCheck"] = true,
+		["Visualize"] = true,
+		["Prediction"] = {
+		   ["Horizontal"] = 0.15,
+		   ["Vertical"] = 0.05,
+		},
+	    ["AutoPrediction"] = {
+	        ["Enabled"] = true,
+	        ["Type"] = "Normal", --//Normal, Custom
+           ["ping20_30"] = 0.12588,
+           ["ping30_40"] = 0.11911,
+           ["ping40_50"] = 0.12471,
+           ["ping50_60"] = 0.13766,
+           ["ping60_70"] = 0.13731,
+           ["ping70_80"] = 0.13951,
+           ["ping80_90"] = 0.14181,
+           ["ping90_100"] = 0.148,
+           ["ping100_110"] = 0.156,
+           ["ping110_120"] = 0.1567,
+           ["ping120_130"] = 0.1601,
+           ["ping130_140"] = 0.1637,
+           ["ping140_150"] = 0.173,
+           ["ping150_160"] = 0.1714,
+           ["ping160_170"] = 0.1863,
+           ["ping170_180"] = 0.1872,
+           ["ping180_190"] = 0.1848,
+           ["ping190_200"] = 0.1865,
+	    },
+		["Mode"] = "Namecall", --index,namecal
+	},
+	["FOV"] = {
+		["Enabled"] = true,
+		["Size"] = 35,
+		["Filled"] = false,
+		["Thickness"] = 0.66,
+		["Transparency"] = 0.9,
+		["Color"] = Color3.fromRGB(255,255,255),
+	},
+	["Camlock"] = {
+	    ["Enabled"] = false,
+	    ["AimPart"] = "HumanoidRootPart",
+	    ["Prediction"] = {
+	       ["Horizontal"] = 0.185,
+	       ["Vertical"] = 0.1,
+	    },
+	    ["Smoothness"] = 0.1,
+	    ["AutoPrediction"] = {
+	        ["Enabled"] = false,
+	        ["Type"] = "Normal", --//Normal, Custom
+           ["ping20_30"] = 0.12588,
+           ["ping30_40"] = 0.11911,
+           ["ping40_50"] = 0.12471,
+           ["ping50_60"] = 0.12766,
+           ["ping60_70"] = 0.12731,
+           ["ping70_80"] = 0.12951,
+           ["ping80_90"] = 0.13181,
+           ["ping90_100"] = 0.138,
+           ["ping100_110"] = 0.146,
+           ["ping110_120"] = 0.1367,
+           ["ping120_130"] = 0.1401,
+           ["ping130_140"] = 0.1437,
+           ["ping140_150"] = 0.153,
+           ["ping150_160"] = 0.1514,
+           ["ping160_170"] = 0.1663,
+           ["ping170_180"] = 0.1672,
+           ["ping180_190"] = 0.1848,
+           ["ping190_200"] = 0.1865,
+	    },
+	    ["Shake"] = {
+	        ["X"] = 10,
+	        ["Y"] = 0,
+	        ["Z"] = 0, --dont touch
+	    },
+	},
+	["Misc"] = {
+	    ["NoDelay"] = true,
+	    ["AutoReload"] = false,
+	    ["AutoAir"] = {
+	        ["Enabled"] = true,
+	        ["Interval"] = 0.5,
+	    },
+	    ["CMDS"] = { 
+	        ["Enabled"] = false,
+	        ["FOVPrefix"] = "B",
+	        ["Prediction"] = "A",
+	   },
+	},
+	["Resolution"] = {
+	    ["Value"] = 1,
+	   },
+	["Resolvers"] = {  --entirely not
+	    ["Enabled"] = false,
+	    ["AutoDetect"] = false,
+	    ["Type"] = "Recalculator",
+	},
+    ["Visuals"] = {
+        ["Ambient"] = {
+            ["Enabled"] = false,
+            ["Color"] = Color3.fromRGB(4, 0, 255),
+        },
+        ["OutDoor Ambient"] = {
+            ["Enabled"] = false,
+            ["Color"] = Color3.fromRGB(4, 0, 255)
+        },
+        ["Fog Modifications"] = {
+            ["Enabled"] = false,
+            ["Color"] = Color3.fromRGB(4, 0, 255),
+            ["Start"] = 15,
+            ["End"] = 100 
+        },
+        ["ColorCorrection"] = {
+            ["Enabled"] = false,
+            ["Brightness"] = 0,
+            ["Saturation"] = 5,
+            ["Contrast"] = 2,
+        },
+    },
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bobbbb-b/B/main/77_SJQ0ZC.lua"))()
+end)
+
+Section:NewButton("Cc Silent", "Silent Aim", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sdfesdfsedf/srgtergasdfs/main/%3F%3F%3F", true))()
+end)
+
+Section:NewButton("Ryzz Silent Aim", "Silent Aim", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/Ryzzchips%20Silent%20aim.", true))()
+end)
+
+Section:NewButton("Basic Silent Aim", "Silent Aim", function()
+    getgenv().Silent = {
+    Setting = {
+        IsTargetting = true,
+        Prediction = 0.119,
+        TargetPart = "HumanoidRootPart",
+        WallCheck = true,
+        FOV = {
+            Radius = 70,
+            Visible = true
+        }
+    }
+}
+
+local Inset, Mouse, Client, Vector2New, Cam =
+    game:GetService("GuiService"):GetGuiInset().Y,
+    game.Players.LocalPlayer:GetMouse(),
+    game.Players.LocalPlayer,
+    Vector2.new,
+    workspace.CurrentCamera
+local Targetting
+
+local FOV = Drawing.new("Circle")
+FOV.Transparency = 0.5
+FOV.Thickness = 1.6
+FOV.Color = Color3.fromRGB(230, 230, 250)
+FOV.Filled = true
+
+local UpdateFOV = function(Radius)
+    if (not FOV) then
+        return
+    end
+
+    FOV.Position = Vector2New(Mouse.X, Mouse.Y + (Inset))
+    FOV.Visible = getgenv().Silent.Setting.FOV["Visible"]
+    FOV.Radius = (Radius) * 3.067
+
+    return FOV
+end
+
+task.spawn(function() while task.wait() do UpdateFOV(getgenv().Silent.Setting.FOV["Radius"]) end end)
+
+local WallCheck = function(destination, ignore)
+    if getgenv().Silent.Setting.WallCheck then
+        local Origin = Cam.CFrame.p
+        local CheckRay = Ray.new(Origin, destination - Origin)
+        local Hit = game.workspace:FindPartOnRayWithIgnoreList(CheckRay, ignore)
+        return Hit == nil
+    else
+        return true
+    end
+end
+
+local getClosestChar = function()
+    local Target, Closest = nil, 1 / 0
+    for _, v in pairs(game.Players:GetPlayers()) do
+        if (v.Character and v ~= Client and v.Character:FindFirstChild("HumanoidRootPart")) then
+            local Position, OnScreen = Cam:WorldToScreenPoint(v.Character.HumanoidRootPart.Position)
+            local Distance = (Vector2New(Position.X, Position.Y) - Vector2New(Mouse.X, Mouse.Y)).Magnitude
+
+            if
+                (FOV.Radius > Distance and Distance < Closest and OnScreen and
+                    WallCheck(v.Character.HumanoidRootPart.Position, {Client, v.Character}))
+             then
+                Closest = Distance
+                Target = v
+            end
+        end
+    end
+    return Target
+end
+
+local Old
+Old =
+    hookmetamethod(
+    game,
+    "__index",
+    function(self, key)
+        if self:IsA("Mouse") and key == "Hit" then
+            Targetting = getClosestChar()
+            if Targetting ~= nil then
+                return Targetting.Character[getgenv().Silent.Setting.TargetPart].CFrame +
+                    (Targetting.Character[getgenv().Silent.Setting.TargetPart].Velocity *
+                        getgenv().Silent.Setting.Prediction)
+            end
+        end
+        return Old(self, key)
+    end
+)
+end)
+
+Section:NewButton("Good Silent Aim", "Silent Aim", function()
+    local SilentSettings = {
+    IsTargetting = true,
+    Prediction = 0.157, 
+    TargetPart = "HumanoidRootPart",
+    WallCheck = true,
+    FOV = {
+        Radius = 50,
+        Visible = true
+    }
+}
+
+local Inset = game:GetService("GuiService"):GetGuiInset().Y
+local Mouse = game.Players.LocalPlayer:GetMouse()
+local Client = game.Players.LocalPlayer
+local Cam = workspace.CurrentCamera
+
+local FOV = Drawing.new("Circle")
+FOV.Transparency = 0.5
+FOV.Thickness = 1.6
+FOV.Color = Color3.fromRGB(230, 230, 250)
+FOV.Filled = false
+
+-- Function to update FOV
+local function UpdateFOV(Radius)
+    if not FOV then return end
+    FOV.Position = Vector2.new(Mouse.X, Mouse.Y + Inset)
+    FOV.Visible = SilentSettings.FOV.Visible
+    FOV.Radius = Radius * 3.067
+end
+
+-- Coroutine to continuously update FOV
+task.spawn(function()
+    while true do
+        task.wait()
+        UpdateFOV(SilentSettings.FOV.Radius)
+    end
+end)
+
+-- Function to check for obstacles
+local function WallCheck(destination, ignoreList)
+    if SilentSettings.WallCheck then
+        local Origin = Cam.CFrame.p
+        local CheckRay = Ray.new(Origin, destination - Origin)
+        local Hit = game.Workspace:FindPartOnRayWithIgnoreList(CheckRay, ignoreList)
+        return Hit == nil
+    else
+        return true
+    end
+end
+
+-- Function to find the closest character
+local function GetClosestChar()
+    local ClosestDistance = math.huge
+    local ClosestCharacter = nil
+    
+    for _, player in ipairs(game.Players:GetPlayers()) do
+        if player ~= Client and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+            local Character = player.Character
+            local RootPart = Character.HumanoidRootPart
+            local Position, OnScreen = Cam:WorldToScreenPoint(RootPart.Position)
+            local Distance = (Vector2.new(Position.X, Position.Y) - Vector2.new(Mouse.X, Mouse.Y)).Magnitude
+            
+            if FOV.Radius > Distance and Distance < ClosestDistance and OnScreen and
+                WallCheck(RootPart.Position, {Client, Character}) then
+                ClosestDistance = Distance
+                ClosestCharacter = player
+            end
+        end
+    end
+    
+    return ClosestCharacter
+end
+
+-- Hook method to override mouse hit
+local OldIndex = hookmetamethod(game, "__index", function(self, key)
+    if self:IsA("Mouse") and key == "Hit" then
+        local Target = GetClosestChar()
+        if Target then
+            local TargetPart = Target.Character[SilentSettings.TargetPart]
+            if TargetPart then
+                return TargetPart.CFrame + (TargetPart.Velocity * SilentSettings.Prediction)
+            end
+        end
+    end
+    return OldIndex(self, key)
+end)
+end)
+
+Section:NewButton("Evolution Silent Aim", "Silent Aim", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/VrwjH9Pq", true))()
+
+
+getgenv().Aiming.FOV = 14.3
+getgenv().Aiming.FOVSides = 360
+getgenv().Aiming.HitChance = 100
+getgenv().Aiming.ShowFOV = false
+DahoodSettings.Prediction = 0.138
+
+getgenv().Aiming.UseMoreHitparts = true
+getgenv().Aiming.UseNearestCursor = true
+getgenv().Aiming.AutoPrediction = true
+getgenv().Aiming.KnockedCheck = true
+getgenv().Aiming.GrabbedCheck = true
+getgenv().Aiming.Wallcheck = true
+local keybindwuuwuwufw= "p" -- toggle key
+
+
+
+local mouse = game.Players.LocalPlayer:GetMouse()
+mouse.KeyDown:Connect(function(value)
+if value == keybindwuuwuwufwthen
+if DaHoodSettings.SilentAim == true then
+DaHoodSettings.SilentAim = false
+else
+DaHoodSettings.SilentAim = true
+end
+end
+end)
+end)
+
+Section:NewButton("Duzz Silent Aim", "Silent Aim", function()
+    
+_G.PRED = 0.025 -- 
+
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Examples/AimLock.lua"))()
+local AimingChecks = Aiming.Checks
+local AimingSelected = Aiming.Selected
+local AimLockSettings = Aiming.AimLock
+
+Aiming.Settings.FOVSettings.Scale = 35 -- fov
+Aiming.ShowCredits = false
+Aiming.HitChance = 100 -- Hitchance 
+Aiming.Settings.FOVSettings.Enabled = false
+Aiming.Settings.TracerSettings.Enabled = false
+Aiming.UpdateFOV()
+Aiming.TargetParts = {"Head","UpperTorso","LowerTorso","RightUpperLeg","LeftUpperLeg","LeftLowerLeg","RightLowerLeg","RightFoot","LeftFoot"}
+Aiming.UpdateTracer()
+Aiming.AimLock.Enabled = false
+
+-- // Services
+local Workspace = game:GetService("Workspace")
+
+-- // Vars
+local CurrentCamera = Workspace.CurrentCamera
+
+local DaHoodSettings = {
+    Prediction = 0.115,
+
+    SilentAim = true,
+
+    AimLock = AimLockSettings,
+    BeizerLock = {
+        Smoothness = 0.05,
+        CurvePoints = {
+            Vector2.new(0.83, 0),
+            Vector2.new(0.17, 1)
+        }
+    }
+}
+getgenv().DaHoodSettings = DaHoodSettings
+
+-- //
+local function ApplyPredictionFormula(SelectedPart)
+    return SelectedPart.CFrame + (SelectedPart.Velocity * DaHoodSettings.Prediction)
+end
+
+-- // Hook
+local __index
+__index = hookmetamethod(game, "__index", function(t, k)
+    -- // Check if it trying to get our mouse's hit or target and see if we can use it
+    if (t:IsA("Mouse") and (k == "Hit" or k == "Target") and AimingChecks.IsAvailable() and DaHoodSettings.SilentAim) then
+        -- // Vars
+        local SelectedPart = AimingSelected.Part
+        local Hit = ApplyPredictionFormula(SelectedPart)
+
+        -- // Return modded val
+        return (k == "Hit" and Hit or SelectedPart)
+    end
+
+    -- // Return
+    return __index(t, k)
+end)
+
+-- // Aimlock
+function AimLockSettings.AimLockPosition(CameraMode)
+    -- // Vars
+    local Position
+    local BeizerData = {}
+
+    -- // Hit to account prediction
+    local Hit = ApplyPredictionFormula(AimingSelected.Part)
+    local HitPosition = Hit.Position
+
+    -- //
+    if (CameraMode) then
+        Position = HitPosition
+    else
+        -- // Convert 3d -> 2d
+        local Vector, _ = CurrentCamera:WorldToViewportPoint(HitPosition)
+        local Vector2D = Vector2.new(Vector.X, Vector.Y)
+
+        -- // Vars
+        local BeizerLock = DaHoodSettings.BeizerLock
+
+        -- //
+        Position = Vector2D
+        BeizerData = {
+            Smoothness = BeizerLock.Smoothness,
+            CurvePoints = BeizerLock.CurvePoints
+        }
+    end
+
+    -- // Return
+    return Position, BeizerData
+end
+
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+mouse.KeyDown:Connect(function(key)
+
+    if key == "v" then
+        
+
+
+        if DaHoodSettings.SilentAim == false then
+		
+		DaHoodSettings.SilentAim = true
+		
+		else
+            
+		DaHoodSettings.SilentAim = false
+
+        end
+
+    end
+
+
+end)
+
+local ping 
+local Value 
+local pingValue 
+local PingNumber 
+
+game:GetService("RunService").RenderStepped:Connect(function()
+    
+     ping = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
+     Value = tostring(ping)
+     pingValue = Value:split(" ")
+     PingNumber = pingValue[1]
+    
+     DaHoodSettings.Prediction = PingNumber / 1000 + _G.PRED
+end)
+
+
+if not game:IsLoaded() then
+
+	game.Loaded:Wait()
+	end
+end)
+
+-- locks
+
+local LockTab = Window:NewTab("LOCKS")
+local Section = LockTab:NewSection("Locks")
+
+Section:NewButton("Red Dot Lock", "LOCK", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/reddot1/main/reddot1", true))()
+end)
+
+Section:NewButton("RainBow Lock", "lock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Scripts/main/Rainbow%20Sunshine%20Aimlock.lua", true))()
+end)
+
+Section:NewButton("Karl Lock", "lock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kar1l/l/main/l"))()
+end)
+
+Section:NewButton("Super Red Aimlock", "Lock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/Sub%20to%20ryzzchips%20Super%20red%20aimlock%20tool", true))()
+end)
+
+-- CAM LOCK
+
+local CamTab = Window:NewTab("CAM LOCK")
+local Section = CamTab:NewSection("CamLock")
+
+Section:NewButton("LunarCam", "CAMLOCK", function()
+    getgenv().Prediction = 0.135
+getgenv().Smoothness = 0.9
+getgenv().AimPart = "UpperTorso"
+getgenv().OldAimpart = "UpperTorso"
+getgenv().ShakeValue = 0
+getgenv().AutoPred = true
+
+---// NOT MADE BY ME BUT I STILL CREDS TO LION //--
+
+local Tool = Instance.new("Tool")
+Tool.RequiresHandle = false
+Tool.Name = "Lunar Cam"
+Tool.Parent = game.Players.LocalPlayer.Backpack
+
+local player = game.Players.LocalPlayer
+
+local function connectCharacterAdded()
+    player.CharacterAdded:Connect(onCharacterAdded)
+end
+
+connectCharacterAdded()
+
+player.CharacterRemoving:Connect(function()
+    Tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+-- Variables (Service)
+
+local Players = game:GetService("Players")
+local RS = game:GetService("RunService")
+local WS = game:GetService("Workspace")
+local GS = game:GetService("GuiService")
+local SG = game:GetService("StarterGui")
+
+-- Variables (regular)
+
+local LP = Players.LocalPlayer
+local Mouse = LP:GetMouse()
+local Camera = WS.CurrentCamera
+local GetGuiInset = GS.GetGuiInset
+
+local AimlockState = true
+local Locked
+local Victim
+
+local SelectedKey = getgenv().Key
+local SelectedDisableKey = getgenv().DisableKey
+
+-- Notification function
+
+function Notify(tx)
+    SG:SetCore("SendNotification", {
+        Title = "Lunar Cheat",
+        Text = tx,
+        Duration = 5
+    })
+end
+
+-- Check if aimlock is loaded
+
+if getgenv().Loaded == true then
+    Notify("Loaded")
+    return
+end
+
+getgenv().Loaded = true
+
+-- FOV Circle
+
+local fov = Drawing.new("Circle")
+fov.Filled = false
+fov.Transparency = 1
+fov.Thickness = 1
+fov.Color = Color3.fromRGB(255, 255, 0)
+fov.NumSides = 1000
+
+-- Functions
+
+function update()
+    if getgenv().FOV == true then
+        if fov then
+            fov.Radius = getgenv().FOVSize * 2
+            fov.Visible = getgenv().ShowFOV
+            fov.Position = Vector2.new(Mouse.X, Mouse.Y + GetGuiInset(GS).Y)
+
+            return fov
+        end
+    end
+end
+
+function WTVP(arg)
+    return Camera:WorldToViewportPoint(arg)
+end
+
+function WTSP(arg)
+    return Camera.WorldToScreenPoint(Camera, arg)
+end
+
+function getClosest()
+    local closestPlayer
+    local shortestDistance = math.huge
+
+    for i, v in pairs(game.Players:GetPlayers()) do
+        local notKO = v.Character:WaitForChild("BodyEffects")["K.O"].Value ~= true
+        local notGrabbed = v.Character:FindFirstChild("GRABBING_COINSTRAINT") == nil
+
+        if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild(getgenv().AimPart) and notKO and notGrabbed then
+            local pos = Camera:WorldToViewportPoint(v.Character.PrimaryPart.Position)
+            local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(Mouse.X, Mouse.Y)).magnitude
+
+            if (getgenv().FOV) then
+                if (fov.Radius > magnitude and magnitude < shortestDistance) then
+                    closestPlayer = v
+                    shortestDistance = magnitude
+                end
+            else
+                if (magnitude < shortestDistance) then
+                    closestPlayer = v
+                    shortestDistance = magnitude
+                end
+            end
+        end
+    end
+    return closestPlayer
+end
+
+-- Checks if key is down
+
+Tool.Activated:Connect(function()
+    if AimlockState == true then
+        Locked = not Locked
+        if Locked then
+            Victim = getClosest()
+
+            Notify("Locked onto: "..tostring(Victim.Character.Humanoid.DisplayName))
+        else
+            if Victim ~= nil then
+                Victim = nil
+
+                Notify("Unlocked!")
+            end
+        end
+    else
+        Notify("Aimlock is not enabled!")
+    end
+end)
+
+-- Loop update FOV and loop camera lock onto target
+
+RS.RenderStepped:Connect(function()
+    update()
+    if AimlockState == true then
+        if Victim ~= nil then
+            local shakeOffset = Vector3.new(
+                math.random(-getgenv().ShakeValue, getgenv().ShakeValue),
+                math.random(-getgenv().ShakeValue, getgenv().ShakeValue),
+                math.random(-getgenv().ShakeValue, getgenv().ShakeValue)
+            ) * 0.1
+local LookPosition = CFrame.new(Camera.CFrame.p, Victim.Character[getgenv().AimPart].Position + (Vector3.new(Victim.Character.HumanoidRootPart.Velocity.X,Victim.Character.HumanoidRootPart.AssemblyAngularVelocity.Y*0.5,Victim.Character.HumanoidRootPart.Velocity.Z)*getgenv().Prediction))+shakeOffset
+            Camera.CFrame = Camera.CFrame:Lerp(LookPosition, getgenv().Smoothness)        
+    end
+end
+end)
+
+---// NOT MADE BY ME //--
+for _, con in next, getconnections(workspace.CurrentCamera.Changed) do
+  task.wait()
+    con:Disable()
+end
+for _, con in next, getconnections(workspace.CurrentCamera:GetPropertyChangedSignal("CFrame")) do
+   task.wait()
+    con:Disable()
+end
+---// NOT MADE BY ME //--
+
+
+
+while task.wait() do
+if getgenv().AutoPred == true then
+pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
+             split = string.split(pingvalue,'(')
+             ping = tonumber(split[1])
+ if ping <200 then
+        getgenv().Prediction = 0.1973432432343325
+    elseif ping < 150 then
+        getgenv().Prediction = 0.1922
+    elseif ping < 90 then
+        getgenv().Prediction = 0.16
+    elseif ping < 80 then
+        getgenv().Prediction = 0.169
+    elseif ping < 70 then
+        getgenv().Prediction = 0.1355
+    elseif ping < 50 then
+        getgenv().Prediction = 0.125
+    elseif ping < 40 then
+        getgenv().Prediction = 0.12
+    elseif ping < 30 then
+        getgenv().Prediction = 0.12
+    end
+end
+end
+end)
+
+Section:NewButton("Triphub Cam", "Triphub", function()
+      getgenv().Camlock_Settings = {
+    Prediction = 0.159,
+    AimPart = "Head",
+    Key = "q",
+    AutoPrediction = false,
+    Notification = true,
+    Button = true, --Only for people who play on mobile
+    AntiGroundShots = false,
+    UnderGroundResolver = false,
+
+    -- DO NOT TOUCH THIS OR IT WILL NOT WORK --
+    Credits = "space_0999",
+    DiscordServer = "discord.gg/SKhamGzTdn"
+} 
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/elxocasXD/Trip-Hub/main/Scripts/Cam%20Lock.lua'))()
+end)
+
+Section:NewButton("Celex Remake", "Celex", function()
+    loadstring(game:HttpGet("https://pastefy.app/zwDcXfgB/raw"))()
+end)
+
+Section:NewButton("Vascal", "Camlock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gwaporoblox/VascalLock/main/README.md"))()
+end)
+
+-- GUI
+
+local GuiTab = Window:NewTab("GUI")
+local Section = GuiTab:NewSection("GUI'S")
+
+Section:NewButton("SwagMode", "SWAGMODE", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+Section:NewButton("NukerMod", "NukerMod", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo1/Nukermode/main/Nukerscript"))()
+end)
+
+Section:NewButton("Agent Hub", "hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))()
+end)
+
+Section:NewButton("Detazy Hub", "Detazy", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/I4MMO/Detazy/main/Main', true))()
+end)
+
+Section:NewButton("Aura X (remake)", "Aura X", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/k0nkx/Aura-x-skid-ez-remake-by-k0nkx/main/Sigma"))()
+end)
+
+Section:NewButton("Pluto", "Pluto", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))();
+end)
+
+Section:NewButton("Cc Project", "Cc Project", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sdfesdfsedf/srgtergasdfs/main/%3F%3F%3F", true))()
+end)
+
+Section:NewButton("Orsis Leak", "Leak", function()
+    loadstring(game:HttpGet("https://paste-drop.com/raw/7V7m3GOoQ0", true))()
+end)
+
+Section:NewButton("Blazing", "Blazing", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/d75VfZK1"))()
+end)
+
+Section:NewButton("Asylum Mobile", "Asylum", function()
+    getgenv().AlysumMobile = {
+    enabled = true, -- // Global Switch
+    ui = true, -- // Enable UI
+    button_position = {104,4}, -- // Button Position
+    legitness = "Blatant", -- // Super Legit (Closest Point), Semi Legit (Closest Part), Normal (Torso), Blatant (Head)
+    prediction = "1", -- // Prediction version (1,2,3)
+    notif = true, -- // Notifications
+    highlight = true, -- // Highlight Target
+    line = false, -- // Line to target
+    checks = {true, true, false}, -- // Visible, Knocked, Friend
+    assist = {false, 0.058}, -- // Enabled, Strength
+    fov = {false,50} -- // Visible, Size
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/Alysum/main/mobile"))()
+end)
+
+Section:NewButton("FrostByte", "FrostByte", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-leaked/main/Frostbyte%20leaked"))()
+end)
+
+Section:NewButton("BladLock", "Blad", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sdfesdfsedf/srgtergasdfs/main/wwwwwww", true))()
+end)
+
+Section:NewButton("BaliGuiV6", "Balli", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DHBCommunity/DHBOfficialScript/main/DHHScript"))()
+end)
+
+Section:NewButton("Own CC", "Gui", function()
+    --Made by vex
+--I know the ui/gui is skid
+
+--Camlock Keybind = Q
+--Prebuilt
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2024Skid/Noskid/main/VexOnly"))()
+end)
+
+-- Misc
+
+local MiscTab = Window:NewTab("MISC")
+local Section = MiscTab:NewSection("Misc")
+
+Section:NewButton("KeyBoard", "KeyBoard", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Section:NewButton("RightClick", "RightClick", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BalligusapoTT/BalligusapoTT/main/Leftclickballi'))()
+end)
+
+Section:NewButton("TpWalkV4", "WALK FAST", function()
+    -- Tpwalk V4 [ BETA ]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealXORA/Roblox-Scripts/main/Tpwalk%20V4%20%5B%20BETA%20%5D.lua", true))()
+end)
+
+Section:NewButton("AntiLock", "No hits", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/wenny69420/KirbswareScripts/main/MobileV3'))()
+end)
+
+Section:NewButton("Adonis Bypass", "Bypass Anti Cheat", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Pixeluted/adoniscries/main/Source.lua",true))()
+end)
+
+Section:NewButton("Key Tool", "type /e key <keybind> example - q", function()
+    --[[
+
+  █████▒██▓ ▄▄▄██▀▀▀██▓
+▓██   ▒▓██▒   ▒██  ▓██▒
+▒████ ░▒██▒   ░██  ▒██▒
+░▓█▒  ░░██░▓██▄██▓ ░██░
+░▒█░   ░██░ ▓███▒  ░██░
+ ▒ ░   ░▓   ▒▓▒▒░  ░▓
+ ░      ▒ ░ ▒ ░▒░   ▒ ░
+ ░ ░    ▒ ░ ░ ░ ░   ▒ ░
+        ░   ░   ░   ░
+
+To set your key for the Q tool, chat "/e key <keycode here>"
+
+ALL KEYCODES ARE ON THIS LINK:
+https://create.roblox.com/docs/reference/engine/enums/KeyCode
+]]--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/r1FH/Modified-Mobile-Q-Tool/main/Modified%20Mobile%20Q%20Tool.lua", true))()
+end)
+
+-- credits
+
+local CreditsTab = Window:NewTab("CREDITS")
+local Section = CreditsTab:NewSection("CREATED BY KAI")
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "ScreenGui"
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+local Toggle = Instance.new("TextButton")
+Toggle.Name = "Toggle"
+Toggle.Parent = ScreenGui
+Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
+Toggle.Size = UDim2.new(0, 90, 0, 38)
+Toggle.Font = Enum.Font.SourceSans
+Toggle.Text = "Toggle"
+Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
+Toggle.TextSize = 28.000
+Toggle.Draggable = true
+Toggle.MouseButton1Click:connect(function()
+    Library:ToggleUI()
+end)
+
+local Corner = Instance.new("UICorner")
+Corner.Name = "Corner"
+Corner.Parent = Toggle
